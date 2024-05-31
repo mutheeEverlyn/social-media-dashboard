@@ -7,7 +7,7 @@ body {
 
   .container{
     padding: 20px;
-    width: 80%;
+    width: 800px;
     margin: 20px auto;
   }
 .header{
@@ -154,14 +154,15 @@ display: flex;
 justify-content: space-between;
 }
 
-@media only screen and (max-width:360px){
+@media only screen and (max-width:370px){
     .container{
         margin: 0px;
-        /* width: 100%; */
+        width: 100vw;
     }
     .toggle{
-        /* margin: 0px; */
-        width: 330px;
+        margin: 0px;
+        /* width: 330px; */
+
         display: flex;
         justify-content: space-between;
     }
@@ -169,22 +170,22 @@ justify-content: space-between;
     display: block;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
    }
    .white{
     /* width: 330px; */
-    width: 100%;
+    width: 100vw;
     border-bottom: 1px solid black;
    }
    .item1, .item2, .item3, .item4, .item5, 
    .item6, .item7, .item8, .item9, .item10,
     .item11 ,.item12{
-        width: 100%;
+        width: 100vw;
     }
    .socialmedia{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100vw;
     justify-content: center;
    }
    .details{
@@ -202,7 +203,7 @@ justify-content: space-between;
    .topsocial,.bottomsocial{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 100vw;
    }
   
 }
